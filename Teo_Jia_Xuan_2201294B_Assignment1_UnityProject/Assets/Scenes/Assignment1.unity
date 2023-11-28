@@ -553,6 +553,7 @@ MonoBehaviour:
   PlayerAnim: {fileID: 246651967}
   playerMovemnt: {fileID: 1169051620}
   swordSwing: 0
+  idleTime: 0
 --- !u!114 &246651969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4185,7 +4186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mPlayer: {fileID: 1169051621}
   mPositionOffset: {x: 1, y: 2, z: -3}
-  mAngleOffset: {x: 0, y: 30, z: 0}
+  mAngleOffset: {x: 0, y: 0, z: 0}
   mDamping: 10
   mMinPitch: -30
   mMaxPitch: 30
@@ -4443,6 +4444,7 @@ MonoBehaviour:
   z: 0
   mFollowCameraForward: 0
   mTurnRate: 0
+  moving: 0
 --- !u!4 &1169051621
 Transform:
   m_ObjectHideFlags: 0
